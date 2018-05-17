@@ -1,0 +1,527 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+input ,textarea ,button{
+    border: none;
+    outline: none;
+}
+.header{
+    width: 100%;
+    height: 0.88rem;
+    background: red;
+    padding-left: 0.24rem;
+    padding-right: 0.24rem;
+    padding-top: 0.3rem;
+    box-sizing: border-box;
+}
+.header .hleft{
+    width: 2.16rem;
+    height: 0.36rem;
+    /*background: black;*/
+    float: left;
+    font-size: 0.28rem;
+    color: white;
+}
+.header .hleft i{
+    font-size: 0.36rem;
+}
+.header .hright{
+    width: 3.16rem;
+    height: 0.36rem;
+    background: white;
+    float: right;
+    position: relative;
+    border-radius: 30px;
+}
+.header .hright i{
+    float: left;
+    font-size: 0.24rem;
+    line-height: 0.36rem;
+    margin-left: 0.1rem;
+}
+.header .hright input{
+    width: 2.76rem;
+    height: 0.3rem;
+    position: absolute;
+    left: 0.4rem;
+    top: 0.02rem;
+    border: none;
+    border-radius:30px;
+ }
+.shang1{
+    width: 100%;
+    height: 3.8rem;
+    border-bottom: 0.04rem solid #453645;
+}
+.shang1 .top{
+    width: 100%;
+    height: 3.12rem;
+}
+.shang1 .man{
+    width: 1.2rem;
+    height: 0.26rem;
+    /*background: blue;*/
+    margin: 0 auto;
+    margin-top: 0.36rem;
+}
+.shang1 .man a{
+    width: 0.1rem;
+    height: 0.1rem;
+    border-radius: 50%;
+    border: 0.01rem solid rgba(0,0,0,0.3);
+    float: left;
+    margin-right: 0.12rem;
+}
+.shang1 .man .mon{
+    width: 0.4rem;
+    height: 0.1rem;
+    background: #5b4d5b;
+    border-radius: 10px;
+    margin-left: 0.15rem;
+}
+.shang1 .bottom{
+    width: 4.26rem;
+    height: 0.3rem;
+    margin: 0 auto;
+    margin-top: 0.16rem;
+    font-size: 0.3rem;
+    line-height: 0.3rem;
+    text-align: center;
+}
+.shang1 .bottom .ju1{
+    width: 0.9rem;
+    height: 0.05rem;
+    background: #453645;
+    float: left;
+    margin-top: 0.1rem;
+}
+.shang1 .bottom .ju2{
+    width: 0.9rem;
+    height: 0.05rem;
+    background: #453645;
+    float: right;
+    margin-top: 0.1rem;
+}
+.shang1 .top .box{
+    width: 1.5rem;
+    height: 1.56rem;
+    font-size: 0.22rem;
+    float: left;
+    text-align: center;
+}
+.shang1 .top .box .yuan{
+    width: 0.75rem;
+    height: 0.75rem;
+    border-radius: 50%;
+    background: brown;
+    display:block;
+    margin: 0 auto;
+    margin-top: 0.4rem;
+    margin-bottom: 0.1rem;
+}
+.shang1 .top .box .one{
+    background: #afc62f;
+}
+.shang1 .top .box .two{
+    background: #ff0000;
+}
+.shang1 .top .box .three{
+    background: #f39800;
+}
+.shang1 .top .box .four{
+     background: #ff0000;
+}
+.shang1 .top .box .five{
+    background: #b3d465;
+}
+.shang1 .top .box .six{
+    background: #d9eb0e;
+}
+.shang1 .top .box .seven{
+    background: #0075a9;
+}
+.shang1 .top .box .eight{
+    background: #a75384;
+}
+.shang1 .top .box .nine{
+     background: #4b9510;
+}
+.shang1 .top .box .ten{
+      background: #eb2638;
+}
+.shang1 .top .box .yuan i{
+    color: white;
+    line-height: 0.75rem;
+    text-align: center;
+    font-size: 0.42rem;
+}
+.xian1{
+    width: 100%;
+    height: 0.41rem;
+    background-color: #fff;
+    /*border-top: 0.04rem solid #453645;*/
+    border-bottom: 0.04rem solid #453645;
+    margin-top: 0.4rem;
+}
+.xian1 .box{
+    width: 1.875rem;
+    height: 100%;
+    float: left;
+    font-size: 0.2rem;
+    line-height: 0.41rem;
+    text-align: center;
+}
+.xian1 .box a i{
+    font-size: 0.24rem;
+    margin-top: 0.1rem;
+}
+.xia{
+    width: 100%;
+    height: 6.85rem;
+    overflow: hidden;
+}
+.xia .box{
+    width: 100%;
+    height: 1.71rem;
+    display: block;
+}
+.xia .ab .left{
+    width: 1.9rem;
+    height: 100%;
+    float: left;
+}
+.xia .ab .left img{
+    width: 1.5rem;
+    height: 1rem;
+    margin-top: 0.3rem;
+    margin-left: 0.24rem;
+}
+.xia .ab .right{
+    width: calc(100% - 1.9rem);
+    height: 100%;
+    /*background: brown;*/
+    float: right;
+}
+.xia .ab .right .zi1{
+    width: 100%;
+    height: 0.3rem;
+    margin-top: 0.24rem;
+    font-size: 0.34rem;
+    color: black;
+}
+.xia .ab .right .zi2{
+    width: 100%;
+    height: 0.46rem;
+    /*background: red;*/
+    font-size: 0.18rem;
+}
+.xia .ab .right .zi2 img{
+    width: 1.15rem;
+    height: 0.18rem;
+    float: left;
+    margin-top: 0.16rem;
+}
+.xia .ab .right .zi2 .bo{
+    width: 0.82rem;
+    height: 0.18rem;
+    color: black;
+    float: left;
+    margin-top: 0.16rem;
+    font-size: 0.18rem;
+    text-align: center;
+    line-height: 0.18rem;
+}
+.xia .ab .right .zi2 .ak {
+    width: 1rem;
+    height: 0.18rem;
+    color: #cdcdcd;
+    float: left;
+    margin-top: 0.16rem;
+    font-size: 0.18rem;
+    line-height: 0.18rem;
+}
+.xia .ab .right .zi3 .lis{
+    width: 0.26rem;
+    height: 0.26rem;
+    background: red;
+    font-size: 0.18rem;
+    line-height: 0.26rem;
+    text-align: center;
+    color: white;
+    margin-right: 0.08rem;
+    float: left;
+}
+.xia .ab .right .zi3 .lisn{
+    width: 4.5rem;
+    height: 0.26rem;
+    float: left;
+    font-size: 0.18rem;
+    line-height: 0.26rem;
+    color: black;
+}
+.xia .ac .left{
+    width: 1.9rem;
+    height: 100%;
+    float: left;
+}
+.xia .ac .left img{
+    width: 1.5rem;
+    height: 1rem;
+    margin-top: 0.3rem;
+    margin-left: 0.24rem;
+}
+.xia .ac .right{
+    width: calc(100% - 1.9rem);
+    height: 100%;
+    /*background: brown;*/
+    float: right;
+}
+.xia .ac .right .zi1{
+    width: 100%;
+    height: 0.3rem;
+    margin-top: 0.24rem;
+    font-size: 0.34rem;
+    color: black;
+}
+.xia .ac .right .zi2{
+    width: 100%;
+    height: 0.46rem;
+    /*background: red;*/
+    font-size: 0.18rem;
+}
+.xia .ac .right .zi2 img{
+    width: 1.15rem;
+    height: 0.18rem;
+    float: left;
+    margin-top: 0.16rem;
+}
+.xia .ac .right .zi2 .bo{
+    width: 0.82rem;
+    height: 0.18rem;
+    color: black;
+    float: left;
+    margin-top: 0.16rem;
+    font-size: 0.18rem;
+    text-align: center;
+    line-height: 0.18rem;
+}
+.xia .ac .right .zi2 .ak {
+    width: 1rem;
+    height: 0.18rem;
+    color: #cdcdcd;
+    float: left;
+    margin-top: 0.16rem;
+    font-size: 0.18rem;
+    line-height: 0.18rem;
+}
+.xia .ac .right .zi3 .lis{
+    width: 0.26rem;
+    height: 0.26rem;
+    background: red;
+    font-size: 0.18rem;
+    line-height: 0.26rem;
+    text-align: center;
+    color: white;
+    margin-right: 0.08rem;
+    float: left;
+}
+.xia .ac .right .zi3 .lisn{
+    width: 4.5rem;
+    height: 0.26rem;
+    float: left;
+    font-size: 0.18rem;
+    line-height: 0.26rem;
+    color: black;
+}
+.xia .ad .left{
+    width: 1.9rem;
+    height: 100%;
+    float: left;
+}
+.xia .ad .left img{
+    width: 1.5rem;
+    height: 1rem;
+    margin-top: 0.3rem;
+    margin-left: 0.24rem;
+}
+.xia .ad .right{
+    width: calc(100% - 1.9rem);
+    height: 100%;
+    /*background: brown;*/
+    float: right;
+}
+.xia .ad .right .zi1{
+    width: 100%;
+    height: 0.3rem;
+    margin-top: 0.24rem;
+    font-size: 0.34rem;
+    color: black;
+}
+.xia .ad .right .zi2{
+    width: 100%;
+    height: 0.46rem;
+    /*background: red;*/
+    font-size: 0.18rem;
+}
+.xia .ad .right .zi2 img{
+    width: 1.15rem;
+    height: 0.18rem;
+    float: left;
+    margin-top: 0.16rem;
+}
+.xia .ad .right .zi2 .bo{
+    width: 0.82rem;
+    height: 0.18rem;
+    color: black;
+    float: left;
+    margin-top: 0.16rem;
+    font-size: 0.18rem;
+    text-align: center;
+    line-height: 0.18rem;
+}
+.xia .ad .right .zi2 .ak {
+    width: 1rem;
+    height: 0.18rem;
+    color: #cdcdcd;
+    float: left;
+    margin-top: 0.16rem;
+    font-size: 0.18rem;
+    line-height: 0.18rem;
+}
+.xia .ad .right .zi3 .lis{
+    width: 0.26rem;
+    height: 0.26rem;
+    background: red;
+    font-size: 0.18rem;
+    line-height: 0.26rem;
+    text-align: center;
+    color: white;
+    margin-right: 0.08rem;
+    float: left;
+}
+.xia .ad .right .zi3 .lisn{
+    width: 4.5rem;
+    height: 0.26rem;
+    float: left;
+    font-size: 0.18rem;
+    line-height: 0.26rem;
+    color: black;
+}
+.xia .ae .left{
+    width: 1.9rem;
+    height: 100%;
+    float: left;
+}
+.xia .ae .left img{
+    width: 1.5rem;
+    height: 1rem;
+    margin-top: 0.3rem;
+    margin-left: 0.24rem;
+}
+.xia .ae .right{
+    width: calc(100% - 1.9rem);
+    height: 100%;
+    /*background: brown;*/
+    float: right;
+}
+.xia .ae .right .zi1{
+    width: 100%;
+    height: 0.3rem;
+    margin-top: 0.24rem;
+    font-size: 0.34rem;
+    color: black;
+}
+.xia .ae .right .zi2{
+    width: 100%;
+    height: 0.46rem;
+    /*background: red;*/
+    font-size: 0.18rem;
+}
+.xia .ae .right .zi2 img{
+    width: 1.15rem;
+    height: 0.18rem;
+    float: left;
+    margin-top: 0.16rem;
+}
+.xia .ae .right .zi2 .bo{
+    width: 0.82rem;
+    height: 0.18rem;
+    color: black;
+    float: left;
+    margin-top: 0.16rem;
+    font-size: 0.18rem;
+    text-align: center;
+    line-height: 0.18rem;
+}
+.xia .ae .right .zi2 .ak {
+    width: 1rem;
+    height: 0.18rem;
+    color: #cdcdcd;
+    float: left;
+    margin-top: 0.16rem;
+    font-size: 0.18rem;
+    line-height: 0.18rem;
+}
+.xia .ae .right .zi3 .lis{
+    width: 0.26rem;
+    height: 0.26rem;
+    background: #eb1bd0;
+    font-size: 0.18rem;
+    line-height: 0.26rem;
+    text-align: center;
+    color: white;
+    margin-right: 0.08rem;
+    float: left;
+}
+.xia .ae .right .zi3 .lisn{
+    width: 4.5rem;
+    height: 0.26rem;
+    float: left;
+    font-size: 0.18rem;
+    line-height: 0.26rem;
+    color: black;
+}
+.di{
+    width: 100%;
+    height: 0.99rem;
+    /*background: red;*/
+    border-top: 0.04rem solid #aaa;
+}
+.di .maa{
+    width: 5.96rem;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 0.81rem;
+}
+.di .maa .biao{
+    width: 0.60rem;
+    height: 0.76rem;
+    display: block;
+    text-align: center;
+    position: relative;
+    font-size: 0.2rem;
+}
+.di .maa .biao i{
+    font-size: 0.46rem;
+    position: absolute;
+    top: 0;
+    left: 0.05rem;
+    color: black;
+}
+.di .maa .one i{
+    color: red;
+}
+.di .maa .one .bb{
+    color: red;
+}
+.di .maa .biao .bb{
+    margin-top: 0.14rem;
+    color: black;
+}

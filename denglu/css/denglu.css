@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+input ,textarea ,button{
+    border: none;
+    outline: none;
+}
+.pic{
+    width: 100%;
+    height: 1.6rem;
+    margin-top: 1.16rem;
+}
+.pic .tu{
+    width: 1.6rem;
+    height: 1.6rem;
+    border-radius: 50%;
+    margin: 0 auto;
+    background-image: url("../font/444c4e2f745162f8-80b3c3b4a16ce4ad-2cec66ce02319c521d027365a3af6c7c.png");
+    background-size: cover;
+}
+.shang{
+    width: 2.8rem;
+    height: 0.8rem;
+    margin: 0.4rem auto 0;
+}
+.shang .top{
+    width: 100%;
+    height: 0.35rem;
+    font-size: 0.26rem;
+    color: #9e989a;
+    text-align: center;
+}
+.shang .bottom{
+    width: 100%;
+    height: 0.45rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.shang .bottom .it1{
+    width: 0.8rem;
+    height: 0.16rem;
+    background-image: url("../font/tuob.png");
+    background-size: cover;
+}
+.shang .bottom .it3{
+    width: 0.8rem;
+    height: 0.16rem;
+    background-image: url("../font/tuoc.png");
+    background-size: cover;
+}
+.shang .bottom .it2{
+    width: 1rem;
+    height: 100%;
+    color: #ef204f;
+    font-size: 0.24rem;
+    line-height: 0.45rem;
+}
+.di{
+    width: 4rem;
+    height: 1rem;
+    background: #e8df4a;
+    border-radius: 0.2rem;
+    margin: 1.65rem auto 0;
+}
+.zhong{
+    width: 4.6rem;
+    height: 3.6rem;
+    background: #f0f2e7;
+    border-radius: 0.2rem;
+    border: 0.02rem solid #9ea097;
+    margin: -0.8rem auto 0;
+}
+.zhong .yuan{
+    width: 100%;
+    height: 0.7rem;
+    padding-top: 0.28rem;
+    box-sizing: border-box;
+}
+.zhong .yuan .ju{
+    width: 0.8rem;
+    height: 0.14rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.zhong .yuan .ju .left{
+    width: 0.14rem;
+    height: 0.14rem;
+    border-radius: 50%;
+    background: #babcaf;
+}
+.zhong .yuan .ju .right{
+    width: 0.14rem;
+    height: 0.14rem;
+    border-radius: 50%;
+    background: red;
+}
+.zhong .box{
+    width: 100%;
+    height: 0.9rem;
+    padding: 0.2rem 0.4rem;
+    box-sizing: border-box;
+}
+.zhong .box .tt{
+    width: 3.8rem;
+    height: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.zhong .box .tt .left{
+    width: 0.18rem;
+    height: 0.12rem;
+    border-radius: 0.1rem;
+    background: #0075a9;
+}
+.zhong .bao{
+    width: 100%;
+    height: 0.9rem;
+    padding: 0.2rem 0.4rem;
+    box-sizing: border-box;
+}
+.zhong .bao .tt{
+    width: 3.8rem;
+    height: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.zhong .bao .tt .left{
+    display: flex;
+}
+.zhong .bao .tt .left .iconfont{
+    color: #ee4444;
+}
+.zhong .bao .tt .right{
+    width: 3.2rem;
+    height: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.26rem;
+    color: #6b6666;
+}
+.zhong .box .tt .right{
+    width: 3.2rem;
+    height: 0.5rem;
+    border-bottom: 0.02rem solid #453645;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.zhong .box .tt .right input{
+    width: 1.8rem;
+    height: 100%;
+    border: none;
+    background: #f0f2e7;
+}
+.zhong .box .tt .right .biao{
+    width: 0.36rem;
+    height: 0.4rem;
+    display: flex;
+}
+.zhong .box .tt .right .biao .icon-shouji1{
+    font-size: 0.4rem;
+    color: #41b6fb;
+}
+.zhong .box .tt .right .biao .icon-suo{
+    font-size: 0.4rem;
+    color: #ed2d5a;
+}
+.dui{
+    width: 1.74rem;
+    height: 0.4rem;
+    border-radius: 0.1rem;
+    background: #9ea097;
+    margin: -0.2rem auto 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dui .iconfont{
+    color: white;
+}
+.bo{
+    width: 2.9rem;
+    height: 0.6rem;
+    margin: 1.4rem auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bo .qq{
+    width: 0.5rem;
+    height: 0.5rem;
+    background-image: url("../font/qq(1).png");
+    background-size: cover;
+}
+.bo .wei{
+    width: 0.5rem;
+    height: 0.5rem;
+    background-image: url("../font/weixin.png");
+    background-size: cover;
+}
+.bo .gg{
+    width: 0.5rem;
+    height: 0.5rem;
+    background-image: url("../font/weibo.png");
+    background-size: cover;
+}

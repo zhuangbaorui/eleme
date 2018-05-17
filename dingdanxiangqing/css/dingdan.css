@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+input ,textarea ,button{
+    border: none;
+    outline: none;
+}
+.top{
+    width: 100%;
+    height: 0.88rem;
+    background: #974b94;
+    font-size: 0.32rem;
+}
+.top .shang{
+    width: 100%;
+    height: 0.5rem;
+    font-size: 0.32rem;
+    line-height: 0.5rem;
+    text-align: center;
+    color: #d8d9d5;
+}
+.top .xia{
+    width: 100%;
+    height: 0.38rem;
+    font-size: 0.28rem;
+    line-height: 0.38rem;
+    text-align: center;
+    color: #d8d9d5;
+}
+.nav{
+    width: 100%;
+    height: 11.06rem;
+    padding: 0.34rem 0.24rem 0;
+    box-sizing: border-box;
+}
+.nav .box{
+    width: 100%;
+    height: 2.42rem;
+    border: 0.02rem solid #9f9e9b;
+    margin-bottom: 0.2rem;
+    border-radius: 0.2rem;
+    padding: 0.22rem 0 0.24rem 0.36rem;
+    box-sizing: border-box;
+    display: flex;
+    background: #faf9f7;
+    position: relative;
+    box-shadow: 0.01rem 0.01rem 0.1rem 0.01rem rgba(0,0,0,0.8);
+}
+.nav .box .gun{
+    width: 0.01rem;
+    height: 1.6rem;
+    border-radius: 0.1rem;
+    background: #9f9e9b;
+    position: absolute;
+    left: 2rem;
+    line-height: 2rem;
+    box-shadow: 0.08rem 0 0.2rem 0.03rem rgba(0,0,0,0.3);
+}
+.nav .box .left{
+    width: 1.34rem;
+    height: 1.9rem;
+}
+.nav .box .left .hr1{
+    width: 0.92rem;
+    height: 0.92rem;
+    background-image: url("../font/36795f7a1898dba1f7af8d83903104ec.png");
+    border-radius: 50%;
+    background-size: cover;
+    margin: 0 auto;
+}
+.nav .box .left .first{
+    width: 0.92rem;
+    height: 0.92rem;
+    background-image: url("../font/maocai.png");
+    border-radius: 50%;
+    background-size: cover;
+    margin: 0 auto;
+}
+.nav .box .left .two{
+    width: 0.92rem;
+    height: 0.92rem;
+    background-image: url("../font/kaorou.png");
+    border-radius: 50%;
+    background-size: cover;
+    margin: 0 auto;
+}
+.nav .box .left .three{
+    width: 0.92rem;
+    height: 0.92rem;
+    background-image: url("../font/060df31de87efe7b-9f36f160385d3fcd-e3ce884103d4207a0f0ec39a2a833e89.png");
+    border-radius: 50%;
+    background-size: cover;
+    margin: 0 auto;
+}
+.nav .box .left .hr2{
+    width: 100%;
+    height: 0.4rem;
+    margin-top: 0.06rem;
+    background-image: url("../font/12.png");
+    background-size: cover;
+}
+.nav .box .left .hr3{
+    width: 1.12rem;
+    height: 0.36rem;
+    border-radius: 0.1rem;
+    background: red;
+    margin: 0.14rem auto 0;
+    display: block;
+    line-height: 0.36rem;
+    font-size: 0.24rem;
+    text-align: center;
+    color: white;
+}
+.nav .box .right{
+    width: 4.62rem;
+    height: 1.9rem;
+    margin-left: 0.5rem;
+    padding-left: 0.36rem;
+    /*border-left: 0.01rem solid #e7e3d8;*/
+}
+.nav .box .right .it1{
+    width: 1.3rem;
+    height: 0.34rem;
+    font-size: 0.34rem;
+    line-height: 0.34rem;
+}
+.nav .box .right .it2{
+    width: 1.4rem;
+    height: 0.2rem;
+    margin-top: 0.1rem;
+    font-size: 0.3rem;
+    line-height: 0.2rem;
+    color: #9f9e9b;
+}
+.nav .box .right .it3{
+    width: 2rem;
+    height: 0.1rem;
+    margin-top: 0.1rem;
+    background-image: url("../font/tuoyuaner.png");
+    background-size: cover;
+}
+.nav .box .right .it4{
+    width: 3rem;
+    height: 0.26rem;
+    margin-top: 0.1rem;
+    font-size: 0.24rem;
+    line-height: 0.26rem;
+    color: #9f9e9b;
+}
+.nav .box .right .it5{
+    width: 2rem;
+    height: 0.1rem;
+    margin-top: 0.1rem;
+    background-image: url("../font/tuoyuaner.png");
+    background-size: cover;
+}
+.nav .box .right .it6{
+    width: 100%;
+    height: 0.38rem;
+    margin-top: 0.1rem;
+    font-size: 0.24rem;
+    line-height: 0.38rem;
+    display: flex;
+    color: #9f9e9b;
+}
+.nav .box .right .it6  .yuan1{
+    width: 0.98rem;
+    height: 0.38rem;
+}
+.nav .box .right .it6  .yuan2{
+    width: 0.58rem;
+    height: 0.38rem;
+    margin-left: 0.38rem;
+}
+.nav .box .right .it6  .yuan1 .hi{
+    width: 0.38rem;
+    height: 0.38rem;
+    border-radius: 50%;
+    background-image: url("../font/shijian.png");
+    background-size: cover;
+}
+.nav .box .right .it6  .yuan2 .hi{
+    width: 0.38rem;
+    height: 0.38rem;
+    border-radius: 50%;
+    background-image: url("../font/ding22.png");
+    background-size: cover;
+}
+ .nav .box .right .it7{
+     width: 0.93rem;
+     height: 0.99rem;
+     background-image: url("../font/yuanjiao.png");
+     background-size: cover;
+     position: absolute;
+     right: 0;
+     top: -0.1rem;
+ }
+.bottom{
+    width: 100%;
+    height: 1rem;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+    border-top: 0.02rem solid #c5b49b;
+    display: flex;
+    justify-content: space-around;
+}
+.bottom .fei{
+    width: 0.7rem;
+    height: 0.8rem;
+    color: black;
+    margin-top: 0.4rem;
+    justify-content: center;
+    text-align: center;
+    font-size: 0.26rem;
+}
+.bottom .fei:nth-child(3){
+    color: red;
+}

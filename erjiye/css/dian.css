@@ -1,0 +1,494 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+input ,textarea ,button{
+    border: none;
+    outline: none;
+}
+.headty{
+    width: 100%;
+    height: 2.1rem;
+    padding-left: 0.24rem;
+    padding-right: 0.24rem;
+    box-sizing: border-box;
+    background-image: url("../font/juxingxing.png");
+    background-size: cover;
+}
+.headty .top{
+    width: 100%;
+    height: 0.88rem;
+}
+.headty .bottom{
+    width: 100%;
+    height: 1.22rem;
+    /*background: #0075a9;*/
+}
+.headty .top .left{
+    width: 0.16rem;
+    height: 0.36rem;
+    float: left;
+    margin-top: 0.26rem;
+    position: relative;
+}
+.headty .top .left i{
+    width: 0.16rem;
+    height: 0.36rem;
+    position: absolute;
+    left: -0.1rem;
+    color: white;
+}
+.headty .top .right i{
+    width: 0.1rem;
+    height: 0.36rem;
+    position: absolute;
+    right: 0.11rem;
+    color: white;
+}
+.headty .top .right {
+    width: 0.1rem;
+    height: 0.36rem;
+    float: right;
+    margin-top: 0.26rem;
+    position: relative;
+}
+.headty .bottom .left{
+    width: 1.42rem;
+    height: 1.22rem;
+    background-image: url("../font/e913d5abd825f3da-9b0207a059319018-8eac3ac6269517d9107631fde168bd0f.png");
+    background-size: cover;
+    float: left;
+}
+.headty .bottom .right{
+    width: 5.14rem;
+    height: 100%;
+    /*background: #f39800;*/
+    margin-left: 0.46rem;
+    float: left;
+}
+.headty .bottom .right .right1{
+    width: 100%;
+    height: 0.36rem;
+    font-size: 0.32rem;
+    line-height: 0.36rem;
+    color: white;
+}
+.headty .bottom .right .right2{
+    width: 100%;
+    height: 0.3rem;
+    margin-top: 0.14rem;
+}
+.headty .bottom .right .right2 .one{
+    width: 1.12rem;
+    height: 100%;
+    float: left;
+    font-size: 0.24rem;
+    color: white;
+    line-height: 0.3rem;
+}
+.headty .bottom .right .right2 .two{
+    width: 4.02rem;
+    height: 100%;
+    float: left;
+    font-size: 0.24rem;
+    line-height: 0.3rem;
+    color: white;
+}
+.headty .bottom .right .right3{
+    width: 100%;
+    height: 0.28rem;
+    margin-top: 0.14rem;
+}
+.headty .bottom .right .right3 .ab1{
+    width: 0.28rem;
+    height: 0.28rem;
+    background: red;
+    font-size: 0.26rem;
+    color: white;
+    line-height: 0.28rem;
+    float: left;
+}
+.headty .bottom .right .right3 .ab2{
+    margin-left: 0.24rem;
+    font-size: 0.24rem;
+    float: left;
+    color: white;
+}
+.xin{
+    width: 100%;
+    height: 0.86rem;
+    border-top: 1px solid #8c8b8b;
+    border-bottom: 2px solid #8c8b8b;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+.xin .dot{
+    width: 0.64rem;
+    height: 0.32rem;
+    font-size: 0.32rem;
+    line-height: 0.32rem;
+    color: #99999d;
+}
+.xin .dot:nth-child(1){
+    color: black;
+}
+.xin .ju{
+    width: 0.64rem;
+    height: 0.05rem;
+    background: #ffff00;
+    position: absolute;
+    bottom: 0;
+    left: 0.94rem;
+}
+.zhong{
+    width: 100%;
+    height: 9.78rem;
+    padding-right: 0.24rem;
+}
+.zhong .left .son{
+    width: 1.24rem;
+    height: 100%;
+    margin-left: 0.24rem;
+}
+.zhong .left{
+    width: 1.48rem;
+    height: 9.78rem;
+    background: #f1f2ea;
+    float: left;
+}
+.zhong .right{
+    width: 5.17rem;
+    height: 100%;
+    margin-left: 0.61rem;
+    float: left;
+}
+.zhong .left .box1{
+    width: 100%;
+    height: 0.82rem;
+    background: white;
+    display: block;
+    padding-top: 0.23rem;
+    padding-left: 0.24rem;
+    box-sizing: border-box;
+    font-size: 0.24rem;
+    color: black;
+}
+.zhong .left .box1 .yuan{
+    width: 0.36rem;
+    height: 0.36rem;
+    border-radius: 50%;
+    background: red;
+    float: left;
+    font-size: 0.3rem;
+    line-height: 0.36rem;
+    color: white;
+}
+.zhong .left .son .box2 .yuan1{
+    width: 0.36rem;
+    height: 0.36rem;
+    border-radius: 50%;
+    background: red;
+    float: left;
+    font-size: 0.3rem;
+    line-height: 0.36rem;
+    color: white;
+}
+.zhong .left .son .box{
+    width: 100%;
+    height: 0.745rem;
+    display: block;
+    font-size: 0.24rem;
+    line-height: 0.745rem;
+    color: #999b9e;
+}
+.zhong .left .son .box2{
+    width: 100%;
+    height: 0.745rem;
+    color: #999b9e;
+    display: block;
+    padding-top: 0.1925rem;
+    font-size: 0.24rem;
+    box-sizing: border-box;
+}
+.zhong .right .box2{
+    width: 100%;
+    height: 0.82rem;
+    display: block;
+    font-size: 0.2rem;
+    line-height: 0.82rem;
+    color: #93959a;
+}
+.zhong .right .box{
+    width: 100%;
+    height: 1.05rem;
+    margin-bottom: 0.433rem;
+    /*background: #0075a9;*/
+    display: block;
+}
+.zhong .right .box .left{
+    width: 1.1rem;
+    height: 1.05rem;
+    float: left;
+}
+.zhong .right .box .left img{
+    width: 1.1rem;
+    height: 1.05rem;
+}
+.zhong .right .box .rightxia{
+    width: 3.79rem;
+    height: 1.05rem;
+    float: right;
+    margin-left: 0.28rem;
+}
+.zhong .right .box .rightxia .boxa{
+    width: 100%;
+    height: 0.24rem;
+    color: black;
+    font-size: 0.28rem;
+    line-height: 0.24rem;
+}
+.zhong .right .box .rightxia .boxb{
+    width: 100%;
+    height: 0.18rem;
+    margin-top: 0.11rem;
+    color: #aaabad;
+    font-size: 0.18rem;
+    line-height: 0.18rem;
+}
+.zhong .right .box .rightxia .boxc{
+    width: 100%;
+    height: 0.18rem;
+    margin-top: 0.08rem;
+    display: flex;
+    color: #aaabad;
+}
+.zhong .right .box .rightxia .boxc .zhi1{
+    width: 1rem;
+    height: 100%;
+    /*background: #0075a9;*/
+    font-size: 0.18rem;
+    line-height: 0.18rem;
+}
+.zhong .right .box .rightxia .boxc .zhi2{
+    width: 2.43rem;
+    height: 100%;
+    /*background: darkred;*/
+    margin-left: 0.36rem;
+    font-size: 0.18rem;
+    line-height: 0.18rem;
+}
+.zhong .right .box .rightxia .boxd{
+    width: 0.7rem;
+    height: 0.22rem;
+    margin-top: 0.08rem;
+    display: flex;
+    justify-content: space-between;
+    color: red;
+    float: left;
+    font-size: 0.22rem;
+    line-height: 0.22rem;
+}
+.zhong .right .box .rightxia .boxe{
+    width: 1rem;
+    height: 0.3rem;
+    font-size: 0.28rem;
+    float: right;
+    display: flex;
+    justify-content: space-between;
+    line-height: 0.3rem;
+}
+.zhong .right .box .rightxia .boxe .ab{
+    background: #a7a7a0;
+    color: white;
+    display: flex;
+}
+.zhong .right .box .rightxia .boxe .ac{
+    background: yellow;
+    color: white;
+    display: flex;
+}
+.zhong .right .box .rightxia .boxe .pp{
+    width: 0.3rem;
+    height: 0.3rem;
+    border-radius: 50%;
+    background: yellow;
+    margin-left: 0.7rem;
+    color: white;
+}
+.zhong .right .box .rightxia .boxe .high{
+    width: 0.3rem;
+    height: 0.3rem;
+    border-radius: 50%;
+}
+.dibu{
+    width: 100%;
+    height: 3.72rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 9999;
+    background: white;
+}
+.dibu .top{
+    width: 100%;
+    height: 0.28rem;
+    background: #ceb25b;
+    font-size: 0.24rem;
+    line-height: 0.28rem;
+    text-align: center;
+    color: white;
+}
+.dibu .shang{
+    width: 100%;
+    height: 0.33rem;
+    background: #9da0ae;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+.dibu .shang .left{
+    width: 0.9rem;
+    height: 0.33rem;
+    font-size: 0.18rem;
+    align-items: center;
+    color: white;
+}
+.dibu .shang .right{
+    width: 0.8rem;
+    height: 0.33rem;
+    font-size: 0.18rem;
+    color: white;
+}
+.dibu .xia{
+    width: 100%;
+    height: 2.11rem;
+    padding-top: 0.26rem;
+    padding-left: 0.24rem;
+    padding-right: 0.24rem;
+    box-sizing: border-box;
+}
+.dibu .xia .box{
+    width: 100%;
+    height: 0.26rem;
+    margin-bottom: 0.4rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.26rem;
+}
+.dibu .xia .box .hop1{
+    width: 2.3rem;
+    height: 100%;
+    line-height: 0.26rem;
+}
+.dibu .xia .box .hop2{
+    width: 0.8rem;
+    height: 100%;
+    color: red;
+}
+.dibu .xia .box .hop3{
+    width: 1.2rem;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    line-height: 0.26rem;
+}
+.dibu .xia .box .hop3 .yuan1{
+    width: 0.3rem;
+    height: 0.3rem;
+    border-radius: 50%;
+    background: #95958f;
+    line-height: 0.3rem;
+    color: white;
+}
+.dibu .xia .box .hop3 .yuan2{
+    width: 0.3rem;
+    height: 0.3rem;
+    border-radius: 50%;
+    background: yellow;
+    line-height: 0.3rem;
+    color: white;
+}
+.dibu .bottom{
+    width: 100%;
+    height: 1rem;
+    background: #322929;
+    padding-left: 0.24rem;
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.dibu .bottom .che{
+    width: 0.73rem;
+    height: 0.73rem;
+    border-radius: 50%;
+    background-image: url("../font/gouwuche.png");
+    background-size: cover;
+    position: absolute;
+    left: 0.24rem;
+    top: -0.1rem;
+}
+.dibu .bottom .tt{
+    width: 0.33rem;
+    height: 0.28rem;
+    background-image: url("../font/3.png");
+    background-size: cover;
+    position: absolute;
+    left: 0.8rem;
+    top: -0.15rem;
+}
+.dibu .bottom .leftd{
+    width: 2.5rem;
+    height: 0.75rem;
+    line-height: 1rem;
+    margin-left: 1rem;
+}
+.dibu .bottom .leftd .topd{
+    width: 100%;
+    height: 0.4rem;
+    display: flex;
+}
+.dibu .bottom .leftd .topd .it1{
+    width: 1.4rem;
+    height: 100%;
+    color: white;
+    font-size: 0.34rem;
+    line-height: 0.4rem;
+}
+.dibu .bottom .leftd .topd .it2{
+    width: 1.1rem;
+    height: 100%;
+    color: #868175;
+    line-height: 0.4rem;
+    font-size: 0.24rem;
+}
+.dibu .bottom .leftd .bottomd{
+    width: 100%;
+    height: 0.35rem;
+    font-size: 0.28rem;
+    line-height: 0.35rem;
+    color: #868175;
+}
+.dibu .bottom .rightd{
+    width: 2.15rem;
+    height: 100%;
+    background: yellow;
+    text-align: center;
+    line-height: 1rem;
+    font-size: 0.32rem;
+    color: white;
+    display: block;
+}
+.bnm{
+    width: 100%;
+    height: 5rem;
+    background: white;
+}

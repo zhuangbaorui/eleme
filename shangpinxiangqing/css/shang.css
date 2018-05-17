@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+input ,textarea ,button{
+    border: none;
+    outline: none;
+}
+.header{
+    width: 100%;
+    height: 4.98rem;
+    background-image: url("../font/shengnvguo.png");
+    background-size: cover;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+}
+.header .top{
+    width: 100%;
+    height: 0.88rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .top .left{
+    width: 0.2rem;
+    height: 0.4rem;
+    display: flex;
+    line-height: 0.4rem;
+    justify-content: center;
+    color: white;
+}
+.header .top .right{
+    width: 0.2rem;
+    height: 0.4rem;
+    display: flex;
+    line-height: 0.4rem;
+    justify-content: center;
+    color: white;
+}
+.header .nav{
+    width: 100%;
+    height: 2.28rem;
+    display: flex;
+    position: relative;
+}
+.header .nav .left{
+    width: 3.24rem;
+    height: 1.32rem;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.header .nav .left .list1{
+    width: 100%;
+    height: 0.36rem;
+    font-size: 0.3rem;
+    color: white;
+}
+.header .nav .left .list2{
+    width: 100%;
+    height: 0.24rem;
+    margin-top: 0.18rem;
+    display: flex;
+}
+.header .nav .left .list2 .ir1{
+    width: 1.4rem;
+    height: 100%;
+    font-size: 0.24rem;
+    line-height: 0.24rem;
+    color: #9f9b9b;
+}
+.header .nav .left .list2 .ir2{
+    width: 1.84rem;
+    height: 100%;
+    font-size: 0.24rem;
+    line-height: 0.24rem;
+    color: #9f9b9b;
+}
+.header .nav .left .list3{
+    width: 100%;
+    height: 0.24rem;
+    margin-top: 0.28rem;
+    font-size: 0.24rem;
+    color: red;
+    line-height: 0.24rem;
+}
+.header .nav .right{
+    width: 2.04rem;
+    height: 0.48rem;
+    background: #ebeb41;
+    position: absolute;
+    right: 0;
+    bottom: 0.26rem;
+    font-size: 0.24rem;
+    line-height: 0.48rem;
+    text-align: center;
+    color: #faeded;
+    border-radius: 0.1rem;
+}
+.header .bottom{
+    width: 100%;
+    height: 1.82rem;
+    font-size: 0.26rem;
+    color: white;
+}
+.ping{
+    width: 100%;
+    height: 6.9rem;
+}
+.ping .top{
+    width: 100%;
+    height: 0.48rem;
+    border-top: 0.1rem solid #948e8f;
+    border-bottom: 0.1rem solid #948e8f;
+}
+.ping .bottom{
+    width: 100%;
+    height: 6.62rem;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+}
+.ping .bottom .box{
+    width: 100%;
+    height: 1.655rem;
+    display: flex;
+    align-items: center;
+}
+.ping .bottom .box .pic{
+    width: 1.1rem;
+    height: 1.1rem;
+}
+.ping .bottom .box .left{
+    width: 2.8rem;
+    height: 1.1rem;
+    margin-left: 0.2rem;
+}
+.ping .bottom .box .left .it1{
+    width: 100%;
+    height: 0.28rem;
+    display: flex;
+}
+.ping .bottom .box .left .it1 .zuo{
+    width: 1.5rem;
+    height: 100%;
+    font-size: 0.28rem;
+    line-height: 0.28rem;
+}
+.ping .bottom .box .left .it1 .you{
+    width: 1.3rem;
+    height: 100%;
+    display: flex;
+    line-height: 0.28rem;
+}
+.ping .bottom .box .left .it1 img{
+    width: 0.8rem;
+    height: 0.2rem;
+}
+.ping .bottom .box .pic img{
+    width: 1.1rem;
+    height: 1.1rem;
+}
+.ping .bottom .box .left .it2{
+    width: 100%;
+    height: 0.26rem;
+    margin-top: 0.2rem;
+    font-size: 0.22rem;
+    line-height: 0.26rem;
+    color: #9e989a;
+}
+.ping .bottom .box .left .it2 .iconfont{
+    color: #26dfe6;
+}
+.ping .bottom .box .left .it3{
+    width: 100%;
+    height: 0.26rem;
+    margin-top: 0.12rem;
+    font-size: 0.22rem;
+    line-height: 0.26rem;
+    color: #9e989a;
+}
+.ping .bottom .box .right{
+    width: 2.05rem;
+    height: 1.1rem;
+    margin-left: 1.07rem;
+}
+.ping .bottom .box .right .topp{
+    width: 100%;
+    height: 0.24rem;
+    font-size: 0.24rem;
+    text-align: right;
+    line-height: 0.24rem;
+}
+.ping .bottom .box .right .xiaa{
+    width: 100%;
+    height: 0.32rem;
+    margin-top: 0.54rem;
+    font-size: 0.24rem;
+    display: flex;
+    justify-content: space-between;
+}
+.ping .bottom .box .right .xiaa .iconfont{
+    color: black;
+}
+.ping .bottom .box .right .xiaa a{
+    color: #d8d6d7;
+}
+.di{
+    width: 100%;
+    height: 1.1rem;
+    border-top: 0.1rem solid #cfa972;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+    background: #212c2c;
+    position: relative;
+    margin-top: 0.4rem;
+}
+.di .pic{
+    width: 1.06rem;
+    height: 1.06rem;
+    position: absolute;
+    left: 0.24rem;
+    top: -0.24rem;
+}
+.di .pic img{
+    width: 1.06rem;
+    height: 1.06rem;
+}
+.di .left{
+    width: 1.2rem;
+    height: 0.26rem;
+    line-height: 1rem;
+    color: white;
+    font-size: 0.26rem;
+    margin-left: 1.1rem;
+}
+.di .right{
+    width: 2.5rem;
+    height: 1rem;
+    background: #666e6e;
+    float: right;
+    position: absolute;
+    right: 0;
+    top: 0;
+    line-height: 1rem;
+    font-size: 0.28rem;
+    text-align: center;
+    color: white;
+}
