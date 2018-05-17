@@ -1,10 +1,3 @@
 # eleme
 
 
-
-* asd
-
-* + dsa
-
-  + > sss
-
